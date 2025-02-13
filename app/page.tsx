@@ -17,10 +17,8 @@ export default function Home() {
   const [isAngry, setIsAngry] = useState<boolean>(false);
   const [superAngry, setSuperAngry] = useState<boolean>(false);
 
-
   const [isDialogOpen, setIsDialogOpen] = useState<boolean>(false);
 
-  
   const angryNow = () => {
     return (
       <div>
@@ -63,7 +61,6 @@ export default function Home() {
       </div>
     );
   };
-
 
   const tryAgainQuestion = () => {
     return (
@@ -255,22 +252,22 @@ export default function Home() {
           >
             <div>
               <h1 className="font-bold text-white">
-                Happy Valentine's Day, my love! ❤️
+                Happy Valentine&apos;s Day, my love! ❤️
               </h1>
 
               <div className="py-5">
                 <p className="text-white">
                   Thank you for everything you do for me—for loving me 😘,
                   supporting me 🤗, and always standing by my side. 💕 You bring
-                  so much happiness 😍 and warmth 🔥 into my life, and I'm
+                  so much happiness 😍 and warmth 🔥 into my life, and I&apos;m
                   beyond grateful for you. 💖 Thank you for forgiving my
-                  mistakes 🙈, for understanding me even when I'm not at my best
-                  😌, and for loving me unconditionally. You are my greatest
-                  blessing 🎁, my safe place 🏡, and the love of my life. 💑✨ I
-                  promise that we will celebrate this day together every year
-                  🎉💞, no matter what. Because every Valentine's Day 💘, and
-                  every day in between, belongs to us. Forever and always.
-                  ❤️🌹💍
+                  mistakes 🙈, for understanding me even when I&apos;m not at my
+                  best 😌, and for loving me unconditionally. You are my
+                  greatest blessing 🎁, my safe place 🏡, and the love of my
+                  life. 💑✨ I promise that we will celebrate this day together
+                  every year 🎉💞, no matter what. Because every
+                  Valentine&apos;s Day 💘, and every day in between, belongs to
+                  us. Forever and always. ❤️🌹💍
                 </p>
                 <p className="text-white">
                   I love you more than words can say.
