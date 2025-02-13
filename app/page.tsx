@@ -31,7 +31,7 @@ export default function Home() {
         />
         <h1 className="text-white text-center text-lg sm:text-xl md:text-2xl lg:text-3xl">
           {superAngry
-            ? "That looks like you can't answer no anymore... 😏🔒 Guess you're trapped now! No escape! 🤣❤️"
+            ? "That looks like you can&apos;t answer no anymore... 😏🔒 Guess you&apos;re trapped now! No escape! 🤣❤️"
             : "Roses are red 🌹, violets are blue 🪻, I have a question—will my Valentine be you?"}
         </h1>
 
